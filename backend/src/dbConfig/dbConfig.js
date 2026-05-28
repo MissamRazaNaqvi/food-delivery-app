@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const connectDB = async () => {
     try {
-    const conn = await mongoose.connect("mongodb+srv://Misam123:Misam123@pgmanagement.bobfovh.mongodb.net/?appName=pgManagement");
+    const conn = await mongoose.connect("");
 
     console.log(`✅ MongoDB Connected: ${conn.connection.host}`);
 
